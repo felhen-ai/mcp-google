@@ -46,7 +46,7 @@ placeholders and may be copied locally to a gitignored file.
 - Rotate or revoke a token if it is exposed.
 
 The setup-helper improvement and safe-output requirements are tracked in
-[Issue #5](https://github.com/antonio-mello-ai/mcp-google/issues/5).
+[Issue #5](https://github.com/felhen-ai/mcp-google/issues/5).
 
 ## Run
 
@@ -74,7 +74,7 @@ requests targeting `main`.
 Publishing a GitHub Release triggers the PyPI workflow with trusted publishing.
 Before publishing, verify that the tag and package/runtime versions agree. The
 version-source correction is tracked in
-[Issue #9](https://github.com/antonio-mello-ai/mcp-google/issues/9).
+[Issue #9](https://github.com/felhen-ai/mcp-google/issues/9).
 
 ## Failure modes
 
