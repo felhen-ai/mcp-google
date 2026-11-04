@@ -55,22 +55,22 @@ must never be committed or copied into public issues and logs.
 
 The current credentials request the combined Gmail read/send and Calendar
 read/write scopes. Least-privilege scope profiles are tracked in
-[Issue #11](https://github.com/antonio-mello-ai/mcp-google/issues/11), while
+[Issue #11](https://github.com/felhen-ai/mcp-google/issues/11), while
 refresh failure handling is tracked in
-[Issue #3](https://github.com/antonio-mello-ai/mcp-google/issues/3).
+[Issue #3](https://github.com/felhen-ai/mcp-google/issues/3).
 
 ## Safety boundaries
 
 - Unit tests mock the Google API and do not use live accounts.
 - Tool risk annotations are planned in
-  [Issue #13](https://github.com/antonio-mello-ai/mcp-google/issues/13).
+  [Issue #13](https://github.com/felhen-ai/mcp-google/issues/13).
 - Explicit account selection for external mutations is tracked in Issue #7.
 - Public examples use placeholders rather than real accounts or credentials.
 
 ## Known structural gaps
 
 - Package and runtime version sources are inconsistent; see
-  [Issue #9](https://github.com/antonio-mello-ai/mcp-google/issues/9).
+  [Issue #9](https://github.com/felhen-ai/mcp-google/issues/9).
 - List operations do not expose continuation state; see Issue #12.
 - Calendar day/week boundaries currently use UTC; see Issue #8.
 - MIME extraction is deliberately narrow; see Issue #10.

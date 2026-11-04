@@ -34,7 +34,7 @@ client invokes a registered tool through the MCP server.
 `account`, the server resolves that exact email. When it is omitted, the current
 implementation selects the first configured account. Requiring an explicit
 account for mutating tools is tracked in
-[Issue #7](https://github.com/antonio-mello-ai/mcp-google/issues/7).
+[Issue #7](https://github.com/felhen-ai/mcp-google/issues/7).
 
 ## Gmail read flow
 
@@ -45,9 +45,9 @@ account for mutating tools is tracked in
    extracted plain-text body.
 
 Arbitrary search, pagination and richer MIME handling are tracked in Issues
-[#1](https://github.com/antonio-mello-ai/mcp-google/issues/1),
-[#12](https://github.com/antonio-mello-ai/mcp-google/issues/12) and
-[#10](https://github.com/antonio-mello-ai/mcp-google/issues/10).
+[#1](https://github.com/felhen-ai/mcp-google/issues/1),
+[#12](https://github.com/felhen-ai/mcp-google/issues/12) and
+[#10](https://github.com/felhen-ai/mcp-google/issues/10).
 
 ## Gmail send flow
 
@@ -63,14 +63,14 @@ and account before invoking it.
 - Both return at most 50 events ordered by start time.
 
 Account-local time-zone handling is tracked in
-[Issue #8](https://github.com/antonio-mello-ai/mcp-google/issues/8).
+[Issue #8](https://github.com/felhen-ai/mcp-google/issues/8).
 
 ## Calendar write flow
 
 `calendar_create_event` inserts an event in the primary calendar from a title
 and explicit ISO 8601 start/end values. This is an external side effect. Updating
 and deleting events remain planned under
-[Issue #2](https://github.com/antonio-mello-ai/mcp-google/issues/2).
+[Issue #2](https://github.com/felhen-ai/mcp-google/issues/2).
 
 ## Current boundaries
 

@@ -74,7 +74,7 @@ shell history and shared logs. Store the resulting configuration in a local
 secret source and inject it through the environment at runtime.
 
 A first-class setup helper that avoids unsafe output by default is tracked in
-[Issue #5](https://github.com/antonio-mello-ai/mcp-google/issues/5).
+[Issue #5](https://github.com/felhen-ai/mcp-google/issues/5).
 
 ## Running
 
@@ -113,7 +113,7 @@ MIT
 - [Architecture](docs/arquitetura.md)
 - [Operations](docs/operacao.md)
 - [Documentation index](docs/index.md)
-- [Open roadmap items](https://github.com/antonio-mello-ai/mcp-google/issues)
+- [Open roadmap items](https://github.com/felhen-ai/mcp-google/issues)
 
 Priorities live in GitHub Issues and Projects. Delivery history lives in closed
 Issues, pull requests and GitHub Releases.
